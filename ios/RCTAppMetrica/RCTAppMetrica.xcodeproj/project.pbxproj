@@ -226,10 +226,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../../../../ios",
 					"$(PROJECT_DIR)/../../../../ios/Frameworks",
+					"$(PROJECT_DIR)/../../../../ios/Pods/YandexMobileMetrica",
+					"$(PROJECT_DIR)/../../../../ios/Carthage/Build/iOS",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../../../../ios/Pods/**",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../../../ios/Pods/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -242,10 +242,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../../../../ios",
 					"$(PROJECT_DIR)/../../../../ios/Frameworks",
+					"$(PROJECT_DIR)/../../../../ios/Pods/YandexMobileMetrica",
+					"$(PROJECT_DIR)/../../../../ios/Carthage/Build/iOS",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../../../../ios/Pods/**",
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../../../ios/Pods/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
